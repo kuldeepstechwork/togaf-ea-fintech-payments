@@ -24,28 +24,16 @@ Paivo's growth plan calls for adding an average of 6 new rail/PSP integrations p
 
 | Line Item | Basis | Year 1 | Year 2 | Year 3 |
 |---|---|---|---|---|
-| Orchestration core + ledger build | 130 person-months × $110K/PM (one-time, concentrated Year 1) | $14,300,000 ÷ scaled — see note below | | |
-| *(restated)* Orchestration core + ledger build | 42 PM Year 1 (design + build), $110K/PM | $4,620,000 | $0 | $0 |
+| Orchestration core + ledger build | 42 PM Year 1 (design + build), $110K/PM | $4,620,000 | $0 | $0 |
 | ISO 20022 transformation layer build | 14 PM, one-time, Year 1 | $1,540,000 | $0 | $0 |
-| Adapter build (14 existing rails migrated) | 6 PM/adapter avg × 14 × $110K/PM, spread Yr1–Yr2 | $2,310,000 | $2,000,000 (wave 2 rails, see roadmap) — restated below | |
+| Adapter build (14 existing rails migrated) | 6 PM/adapter avg × $110K/PM, phased per the migration roadmap ([`06-phase-f-migration-planning/migration-roadmap.md`](../06-phase-f-migration-planning/migration-roadmap.md)): 9 adapters in Year 1, the remaining 5 in Year 2 | $2,310,000 (9 adapters) | $3,300,000 (5 adapters) | $0 |
 | New rail onboarding (to-be cost) | 6/yr × 45K fully loaded per adapter (per architecture principle 2 & 7) | $0 | $270,000 | $270,000 |
 | Platform run cost (infra, active-active multi-region, Tier-0) | ~$1.1M/yr steady state, ramping Year 1 | $550,000 | $1,100,000 | $1,100,000 |
 | Reduced reconciliation labor | 1.5 FTE (down from 4.5) × $95K | $142,500 | $142,500 | $142,500 |
 | PCI-DSS audit scope cost (≤3 systems in scope, post-consolidation) | $38K × 3 systems | $0 (Yr1 still transitioning) | $114,000 | $114,000 |
 | Migration program overhead (dual-run, cutover engineering) | One-time | $1,200,000 | $600,000 | $0 |
-| **To-Be Total** | | **$10,362,500** | **$4,226,500** | **$1,626,500** |
-| **To-Be 3-Year Total** | | | | **$16,215,500** |
-
-**Note on adapter build phasing:** the 14 existing rail adapters are not all built in Year 1; the migration roadmap ([`06-phase-f-migration-planning/migration-roadmap.md`](../06-phase-f-migration-planning/migration-roadmap.md)) sequences roughly 9 in Year 1 and 5 in early Year 2. The table above allocates $2,310,000 to Year 1 and reduces the Year 2 adapter line to reflect only the remaining 5 adapters (5 × 6 PM × $110K = $3,300,000 — corrected below).
-
-### Corrected To-Be Total (adapter phasing applied)
-
-| Year | Total |
-|---|---|
-| Year 1 | $10,362,500 |
-| Year 2 | Adapter line corrected to $3,300,000 (5 remaining adapters) → Year 2 total: **$5,526,500** |
-| Year 3 | $1,626,500 |
-| **3-Year Total** | **$17,515,500** |
+| **To-Be Total** | | **$10,362,500** | **$5,526,500** | **$1,626,500** |
+| **To-Be 3-Year Total** | | | | **$17,515,500** |
 
 ## 3-Year TCO Comparison
 
