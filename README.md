@@ -1,6 +1,6 @@
-**Disclaimer:** This repository is a fictional Enterprise Architecture case study created for portfolio and demonstration purposes. Paivo Payments is an invented company — it is not a real organization, and nothing here describes, discloses, or is derived from the systems, data, or intellectual property of any real employer, client, or company, past or present. All figures, architectures, vendor comparisons, and cost estimates are illustrative, created for this exercise, and do not represent real financial or technical data. Any resemblance to actual companies, products, or systems is coincidental.
-
 # Paivo Payments — Payment Orchestration Platform: Enterprise Architecture Case Study
+
+**Disclaimer:** This is an illustrative TOGAF Enterprise Architecture case study modeling common, publicly known challenges in payment orchestration platforms — not a real engagement. Paivo Payments is an invented name, not affiliated with any real company, and nothing here is based on confidential information from any real employer or client. All figures, vendor names, and technical details are constructed for this exercise.
 
 ## Program Overview
 
@@ -31,4 +31,4 @@ The repository follows the TOGAF ADM phase structure end to end, from architectu
 - [adrs/](adrs/) — five Architecture Decision Records for the program's most significant technical decisions
 
 ---
-*Fictional case study — see disclaimer above for full details.*
+*Fictional case study — see disclaimer above for full context.*
