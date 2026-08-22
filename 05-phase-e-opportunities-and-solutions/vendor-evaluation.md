@@ -10,10 +10,10 @@ Two separate buy decisions required vendor evaluation: (1) whether to buy a comm
 
 | Vendor / Option | Weight-Adjusted Score | Summary |
 |---|---|---|
-| **Build in-house** | **8.4 / 10** | Selected |
-| Vendor A — "Meridian Orchestrate" | 6.1 / 10 | Runner-up |
-| Vendor B — "FlowGate Platform" | 5.4 / 10 | Rejected |
-| Vendor C — "PayMesh Connect" | 4.8 / 10 | Rejected |
+| **Build in-house** | **7.9 / 10** | Selected |
+| Vendor A — "Meridian Orchestrate" | 6.3 / 10 | Runner-up |
+| Vendor B — "FlowGate Platform" | 5.8 / 10 | Rejected |
+| Vendor C — "PayMesh Connect" | 5.45 / 10 | Rejected |
 
 ### Scoring Criteria (weighted)
 
@@ -44,9 +44,9 @@ Build in-house won on the criteria the ARB weighted most heavily: fit to Paivo's
 
 | Vendor / Option | Weight-Adjusted Score | Summary |
 |---|---|---|
-| **Vendor D — "SecureVault Pro"** | **8.1 / 10** | Selected |
-| Build in-house PCI-DSS Level 1 vault | 5.9 / 10 | Rejected |
-| Vendor E — "TokenShield" | 6.7 / 10 | Runner-up |
+| **Vendor D — "SecureVault Pro"** | **7.95 / 10** | Selected |
+| Build in-house PCI-DSS Level 1 vault | 6.2 / 10\* | Rejected |
+| Vendor E — "TokenShield" | 7.0 / 10 | Runner-up |
 
 ### Scoring Criteria (weighted)
 
@@ -58,6 +58,8 @@ Build in-house won on the criteria the ARB weighted most heavily: fit to Paivo's
 | Detokenization latency (hot-path impact) | 15% | 8 | 6 | 8 |
 | Vendor substitutability | 10% | 7 | 6 | 10 |
 | Breach history / security track record | 10% | 8 | 7 | n/a |
+
+\*Build In-House has no breach history to score (n/a); its weighted total is computed over the applicable 90% of weight and rescaled to a 0-10 basis, rather than treating the missing criterion as a zero.
 
 ### Rationale
 
